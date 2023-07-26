@@ -12,7 +12,7 @@ let userList = Users;
 
 const printUsers = (userList) => {
     userSection.innerHTML = "";
-    userList.map((user) => {
+    userList?.map((user) => {
         const div = document.createElement("div");
         div.classList.add("userCard");
         div.innerHTML = `<img src=${user.img ? user.img : "https://robohash.org/placeatvoluptatemsequi.png?size=50x50&set=set1"}/>
@@ -27,7 +27,6 @@ const printUsers = (userList) => {
 
 printUsers(userList);
 
-
 // Aquí se encuentran los eventos para cada uno de los 4 formularios:
 
 // Formulario para crear usuarios:
@@ -41,6 +40,7 @@ createForm.addEventListener("submit", (event) => {
 
     printUsers(userList);
     createForm.reset();
+
 });
 
 // Formulario para eliminar usuarios por apellido:

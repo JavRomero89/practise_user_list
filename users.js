@@ -386,16 +386,16 @@ const Users = [
     {
         "id": 49,
         "img": "https://robohash.org/dolorharumconsequatur.png?size=50x50&set=set1",
-        "first_name": "Tamarah",
-        "last_name": "Houldin",
+        "first_name": "Javier",
+        "last_name": "El papi",
         "age": 27,
         "country": "Colombia"
     },
     {
         "id": 50,
         "img": "https://robohash.org/esseauta.png?size=50x50&set=set1",
-        "first_name": "Catarina",
-        "last_name": "Holbarrow",
+        "first_name": "Dora",
+        "last_name": "La exploradora",
         "age": 78,
         "country": "Spain"
     }];

@@ -7,8 +7,8 @@
 //     - "adult": usuarios de entre 30 y 64 años (ambos incluidos)
 //     - "young": usuarios de más de 65 años (incluido 65)
 
-function filterUsersByAge() {
-
+function filterUsersByAge(filterAge, holdUsers) {
+  
 }
 
 // La función "filterUserByCountry" extraerá de la lista los usuarios 
@@ -20,3 +20,15 @@ function filterUsersByCountry() {
 }
 
 export {filterUsersByAge, filterUsersByCountry}
+
+
+
+
+
+// function deleteUser(deleteName, holdUsers) {
+//     let locateUser = holdUsers.filter((user) => user.last_name !== deleteName);
+//     return locateUser
+
+// }
+
+// export default deleteUser;
